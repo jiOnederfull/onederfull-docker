@@ -1,5 +1,5 @@
 # onederfull-docker
-## How to Install?
+## How to Install
 - Mac: https://docs.docker.com/desktop/install/mac-install/
 
 ## Docker Image & Container
