@@ -1,4 +1,7 @@
 # onederfull-docker
+## How to Install?
+- Mac: https://docs.docker.com/desktop/install/mac-install/
+
 ## Docker Image & Container
 - image: 컨테이너를 생성할 때 필요한 요소, 컨테이너를 생성하고 실행할 때 읽기 전용으로 사용
 - `저장소 이름/이미지 이름:이미지 버전(태그)`
