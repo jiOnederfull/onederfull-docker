@@ -47,6 +47,9 @@
 - 동작중인 컨테이너 목록
 - option
    - `-a`: 정지된 컨테이너 포함 모든 컨테이너
+   - `-q`: 컨테이너 ID만 출력
+- example
+   - `docker ps --format "table {{.ID}}\t{{.Status}}\t{{.Image}}"` # go 템플릿
 
 ### `docker inspect`
 - 컨테이너 정보 확인
@@ -54,8 +57,23 @@
 ### `docker rename`
 - 컨테이너명 변경
 
-`docker ps --format "table {{.ID}}\t{{.Status}}\t{{.Image}}"` # go 템플릿
-  
+### `docker rm`
+- 컨테이너 삭제
+- option
+   - `-f`: 실행 중인 컨테이너 강제 삭제
+- example
+   - `docker rm $(docker ps -a -q)` # 모든 컨테이너 삭제
+ 
+### `docker container prune`
+- 모든 컨테이너 삭제
+ 
+
+### `docker stop`
+- 컨테이너 정지
+- example
+   - `docker stop $(docker ps -a -q)` # 모든 컨테이너 정지
+
+
 
 - `Ctrl + D`: 컨테이너를 종료하고 빠져나옴
 - `Ctrl + P, Q`: 컨테이너를 종료하지 않고 빠져나옴
