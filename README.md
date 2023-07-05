@@ -43,14 +43,18 @@
 ### `docker attach`
 - 컨테이너 내부로 들어감
 
-## `docker ps`
+### `docker ps`
 - 동작중인 컨테이너 목록
 - option
    - `-a`: 정지된 컨테이너 포함 모든 컨테이너
 
-## `docker inspect`
+### `docker inspect`
 - 컨테이너 정보 확인
 
+### `docker rename`
+- 컨테이너명 변경
+
+`docker ps --format "table {{.ID}}\t{{.Status}}\t{{.Image}}"` # go 템플릿
   
 
 - `Ctrl + D`: 컨테이너를 종료하고 빠져나옴
