@@ -88,4 +88,4 @@
 - `Ctrl + P, Q`: 컨테이너를 종료하지 않고 빠져나옴
 
 ## Question
-- docker create과 docker run의 차이는?
+- ~~docker create과 docker run의 차이는?~~
