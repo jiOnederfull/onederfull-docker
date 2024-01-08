@@ -31,6 +31,8 @@
 - option
   - `-i -t`: 컨테이너와 상호(interactive) 입출력 가능
   - `-p (컨테이너 외부 포트):(컨테이너 내부 포트)`: 컨테이너의 포트와 호스트의 포트 바인딩
+  - `-d`: 백그라운드 실행
+  - `--restart=always`: [자동 재시작](https://docs.docker.com/engine/reference/commandline/run/#restart)
 
 ### `docker pull`
 - 이미지 내려받기
