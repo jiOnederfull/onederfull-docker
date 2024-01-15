@@ -62,6 +62,7 @@
    - `-q`: 컨테이너 ID만 출력
 - example
    - `docker ps --format "table {{.ID}}\t{{.Status}}\t{{.Image}}"` # go 템플릿
+   - `docker ps --filter "name=sui" -q` # container 이름에 sui가 포함된 container ID만 출력
 
 ### `docker inspect`
 - 컨테이너 정보 확인
