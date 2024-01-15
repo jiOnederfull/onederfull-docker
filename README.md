@@ -100,3 +100,5 @@
 - docker container 내부 유저 지정 방법
 - Running a Docker container as a non-root user
 https://medium.com/redbubble/running-a-docker-container-as-a-non-root-user-7d2e00f8ee15
+
+- https://docs.docker.com/compose/compose-file/07-volumes/
