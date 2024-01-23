@@ -66,6 +66,8 @@
 
 ### `docker inspect`
 - 컨테이너 정보 확인
+- example
+   - `docker rename [현재 이름] [바꿀 이름]`
 
 ### `docker rename`
 - 컨테이너명 변경
@@ -95,7 +97,6 @@
 - https://docs.docker.com/engine/reference/builder/#workdir
 
 ## Question
-- ~~docker create과 docker run의 차이는?~~
 - 자체적으로 만든 이미지가 존재할 때 Image 이름과 Tag 가 같으면 새로운 이미지를 만드나? 아니면 기존 이미지가 있다고 판단하고 안 만드나? (base upgrade)
 - image id 생성 기준
 
