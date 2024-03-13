@@ -41,6 +41,11 @@
 ### `docker images`
 - 이미지 목록
 
+### `docker rmi`
+- 이미지 삭제
+- example
+   - `docker rmi $(docker images --filter reference=eqlabs/pathfinder -q)` # REPOSITORY가 "eqlabs/pathfinder"인 모든 이미지 삭제
+
 ### `docker create`
 - 컨테이너 생성(만), 로컬 도커 엔진에 이미지가 존재하지 않을 경우 자동으로 docker pull
 - `pull` + `create`
