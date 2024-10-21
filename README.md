@@ -101,6 +101,10 @@
 ## Dockerfile
 - https://docs.docker.com/engine/reference/builder/#workdir
 
+## Commands
+- 컨테이너 강제 종료: `docker exec {CONTAINER} kill -SIGINT 1`
+
+
 ## Question
 - 자체적으로 만든 이미지가 존재할 때 Image 이름과 Tag 가 같으면 새로운 이미지를 만드나? 아니면 기존 이미지가 있다고 판단하고 안 만드나? (base upgrade)
 - image id 생성 기준
